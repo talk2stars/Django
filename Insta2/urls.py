@@ -16,7 +16,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include, path
 
+from Insta2.views import HelloWorld
+
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('insta2/', include('Insta2.urls')),
+    path('', HelloWorld.as_view(), name='helloworld')
 ]
