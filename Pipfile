@@ -10,6 +10,8 @@ pylint = "*"
 django = "*"
 django-imagekit = "*"
 pillow = "*"
+gunicorn = "*"
+whitenoise = "*"
 
 [requires]
 python_version = "3.7"
